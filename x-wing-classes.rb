@@ -21,7 +21,7 @@ end
 
 class Faction < XWingSingleton
   def to_s
-    translate("de.factions.#{@name}")
+    translate("en.factions.#{@name}")
   end
 end
 
@@ -36,7 +36,7 @@ class Craft < XWingSingleton
   end
   attr_reader :faction, :color
   def to_s
-    "#{@faction} - #{translate("de.crafts.#{@name}")}: #{@count}"
+    "#{@faction} - #{translate("en.crafts.#{@name}")}: #{@count}"
   end
 end
 
@@ -50,7 +50,7 @@ class Pilot < XWingSingleton
   end
   attr_reader :craft
   def to_s
-    "#{translate("de.crafts.#{@craft.name}")} - #{translate("de.pilots.#{@craft.name}.#{@name}")}: #{@count}"
+    "#{translate("en.crafts.#{@craft.name}")} - #{translate("en.pilots.#{@craft.name}.#{@name}")}: #{@count}"
   end
   def self.all_pilots
     @@singletons[self.name].map{|_,v|v}.sort{|a,b|[a.craft.faction.name,a.craft.name,b.count]<=>[b.craft.faction.name,b.craft.name,a.count]}.map{|pilot|
@@ -66,5 +66,14 @@ class Upgrade < XWingSingleton
   end
   def self.get(name, type)
     super([name, type])
+  end
+  attr_reader :type
+  def to_s
+    "#{translate("en.upgrade_types.#{@type}")} - #{translate("en.upgrades.#{@type}.#{@name}")}: #{@count}"
+  end
+  def self.all_upgrades
+    @@singletons[self.name].map{|_,v|v}.sort{|a,b|[a.type,b.count]<=>[b.type,a.count]}.map{|upgrade|
+      upgrade.to_s
+    }.join("\n")
   end
 end

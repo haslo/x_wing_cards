@@ -18,16 +18,16 @@ def lambda_craft;                        Craft.get(:lambda, imperium); end
 def core_set
   x_wing_craft.add
   tie_craft.add(2)
-  Pilot.get(:x_rookie, x_wing_craft).add
-  Pilot.get(:x_red, x_wing_craft).add
-  Pilot.get(:x_luke, x_wing_craft).add
-  Pilot.get(:x_biggs, x_wing_craft).add
-  Pilot.get(:tie_academy, tie_craft).add(2)
-  Pilot.get(:tie_obsidian, tie_craft).add(2)
-  Pilot.get(:tie_black, tie_craft).add(2)
-  Pilot.get(:tie_mauler, tie_craft).add
-  Pilot.get(:tie_curse, tie_craft).add
-  Pilot.get(:tie_nightbeast, tie_craft).add
+  Pilot.get(:rookie, x_wing_craft).add
+  Pilot.get(:red, x_wing_craft).add
+  Pilot.get(:luke, x_wing_craft).add
+  Pilot.get(:biggs, x_wing_craft).add
+  Pilot.get(:academy, tie_craft).add(2)
+  Pilot.get(:obsidian, tie_craft).add(2)
+  Pilot.get(:black, tie_craft).add(2)
+  Pilot.get(:mauler, tie_craft).add
+  Pilot.get(:curse, tie_craft).add
+  Pilot.get(:nightbeast, tie_craft).add
   Upgrade.get(:proton, :torpedo).add
   Upgrade.get(:determination, :elite).add
   Upgrade.get(:r2d2, :droid).add
@@ -95,7 +95,7 @@ def falcon_pack
   Upgrade.get(:chewbacca, :crew).add
   Upgrade.get(:luke, :crew).add
   Upgrade.get(:nien_nunb, :crew).add
-  Upgrade.get(:swarm_tactics, :crew).add
+  Upgrade.get(:swarm_tactics, :elite).add
   Upgrade.get(:draw_fire, :elite).add
   Upgrade.get(:elusiveness, :elite).add
   Upgrade.get(:veteran_instincts, :elite).add
@@ -106,6 +106,20 @@ def falcon_pack
   Upgrade.get(:shield_upgrade, :modification).add
   Upgrade.get(:shield_upgrade, :modification).add
   Upgrade.get(:falcon, :title).add
+end
+
+def hwk_pack
+  hwk_craft.add
+  Pilot.get(:jan, hwk_craft).add
+  Pilot.get(:kyle, hwk_craft).add
+  Pilot.get(:roark, hwk_craft).add
+  Pilot.get(:operative, hwk_craft).add
+  Upgrade.get(:blaster, :turret).add
+  Upgrade.get(:ion, :turret).add
+  Upgrade.get(:recon, :crew).add
+  Upgrade.get(:saboteur, :crew).add
+  Upgrade.get(:intelligence_agent, :crew).add
+  Upgrade.get(:crow, :title).add
 end
 
 def tie_pack

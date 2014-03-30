@@ -1,0 +1,131 @@
+Pilots:
+========
+
+TIE Advanced - Storm Squadron Pilot: 4
+TIE Advanced - Maarek Stele: 4
+TIE Advanced - Darth Vader: 4
+TIE Advanced - Tempest Squadron Pilot: 4
+TIE Bomber - Scimitar Squadron Pilot: 5
+TIE Bomber - Captain Jonus: 5
+TIE Bomber - Gamma Squadron Pilot: 5
+TIE Bomber - Major Rhymer: 5
+TIE Interceptor - Saber Squadron Pilot: 15
+TIE Interceptor - Royal Guard Pilot: 8
+TIE Interceptor - Avenger Squadron Pilot: 7
+TIE Interceptor - Alpha Squadron Pilot: 7
+TIE Interceptor - Turr Phennir: 7
+TIE Interceptor - "Fel's Wrath": 7
+TIE Interceptor - Soontir Fel: 7
+TIE Interceptor - Kir Kanos: 4
+TIE Interceptor - Cornor Jax: 4
+TIE Interceptor - Tetran Cowall: 4
+TIE Interceptor - Lieutenant Lorrir: 4
+Lambda-class Shuttle - Captain Kagi: 4
+Lambda-class Shuttle - Colonel Jendon: 4
+Lambda-class Shuttle - Captain Yorr: 4
+Lambda-class Shuttle - Omicron Group Pilot: 4
+Slave I - Boba Fett: 3
+Slave I - Krassis Trelix: 3
+Slave I - Bounty Hunter: 3
+Slave I - Kath Scarlett: 3
+TIE Fighter - Black Squadron Pilot: 10
+TIE Fighter - Obsidian Squadron Pilot : 10
+TIE Fighter - Academy Pilot: 10
+TIE Fighter - "Howlrunner": 4
+TIE Fighter - "Winged Gundark": 4
+TIE Fighter - "Backstabber": 4
+TIE Fighter - "Mauler Mithel": 3
+TIE Fighter - "Night Beast": 3
+TIE Fighter - "Dark Curse": 3
+A-Wing - Tycho Celchu: 5
+A-Wing - Green Squadron Pilot: 5
+A-Wing - Prototype Pilot: 5
+A-Wing - Arvel Crynyd: 5
+B-Wing - Blue Squardon Pilot: 4
+B-Wing - Dagger Squadron Pilot: 4
+B-Wing - Ten Numb: 4
+B-Wing - Ibtisam: 4
+YT-1300 - Outer Rim Smuggler: 3
+YT-1300 - Chewbacca: 3
+YT-1300 - Lando Calrissian: 3
+YT-1300 - Han Solo: 3
+HWK-290 - Rebel Operative: 4
+HWK-290 - Roark Garnet: 4
+HWK-290 - Jan Ors: 4
+HWK-290 - Kyle Katarn: 4
+X-Wing - Red Squadron Pilot: 6
+X-Wing - Rookie Pilot: 6
+X-Wing - Biggs Darklighter: 3
+X-Wing - Luke Skywalker: 3
+X-Wing - Wedge Antilles: 3
+X-Wing - Garven Dreis: 3
+Y-Wing - Gray Squadron Pilot: 4
+Y-Wing - "Dutch" Vander: 4
+Y-Wing - Horton Salm: 4
+Y-Wing - Gold Squadron Pilot: 4
+
+
+Upgrades:
+========
+
+Bomb - Seismic Charges: 8
+Bomb - Proton Bombs: 5
+Bomb - Proximity Mines: 3
+Cannon - Ion Cannon: 4
+Cannon - Heavy Laser Cannon: 4
+Cannon - Autoblaster: 4
+Crew - Intelligence Agent: 8
+Crew - Darth Vader: 4
+Crew - Flight Instructor: 4
+Crew - Recon Specialist: 4
+Crew - Weapons Engineer: 4
+Crew - Rebel Captive: 4
+Crew - Saboteur: 4
+Crew - Navigator: 4
+Crew - Luke Skywalker: 3
+Crew - Gunner: 3
+Crew - Mercenary Copilot: 3
+Crew - Nien Nunb: 3
+Crew - Chewbacca: 3
+Astromech Droid - R5-D8: 4
+Astromech Droid - R2 Astromech: 4
+Astromech Droid - R5-K6: 3
+Astromech Droid - R2-D2: 3
+Astromech Droid - R2-F2: 3
+Astromech Droid - R5 Astromech: 3
+Elite Pilot Talent - Push The Limit: 13
+Elite Pilot Talent - Swarm Tactics: 11
+Elite Pilot Talent - Elusiveness: 10
+Elite Pilot Talent - Opportunist: 8
+Elite Pilot Talent - Determination: 7
+Elite Pilot Talent - Expert Handling: 7
+Elite Pilot Talent - Daredevil: 7
+Elite Pilot Talent - Veteran Instincts: 6
+Elite Pilot Talent - Adrenaline Rush: 5
+Elite Pilot Talent - Deadeye: 5
+Elite Pilot Talent - Squad Leader: 4
+Elite Pilot Talent - Expose: 3
+Elite Pilot Talent - Marksmanship: 3
+Elite Pilot Talent - Draw Their Fire: 3
+Missile - Concussion Missiles: 12
+Missile - Assault Missles: 11
+Missile - Cluster Missiles: 9
+Missile - Homing Missiles: 8
+Modification - Shield Upgrade: 14
+Modification - Targeting Computer: 8
+Modification - Hull Upgrade: 8
+Modification - Anti-Pursuit Lasers: 8
+Modification - Engine Upgrade: 6
+Modification - Stealth Device: 6
+Sensors - Fire Control System: 4
+Sensors - Advanced Sensors: 4
+Sensors - Sensor Jammer: 4
+Title - Royal Guard TIE: 8
+Title - ST-321: 4
+Title - Moldy Crow: 4
+Title - Millennium Falcon: 3
+Title - Slave I: 3
+Torpedo - Proton Torpedoes: 18
+Torpedo - Advanced Proton Torpedoes: 9
+Turret - Ion Cannon Turret: 8
+Turret - Blaster Turret: 4

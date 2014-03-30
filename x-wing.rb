@@ -20,6 +20,7 @@ end
   advanced_pack
   lambda_pack
   imp_aces_pack
+  hwk_pack
 end
 5.times do
 	a_wing_pack
@@ -33,4 +34,8 @@ end
 
 puts "\nPilots:\n========\n\n"
 puts Pilot.all_pilots
+puts "\n"
+
+puts "\nUpgrades:\n========\n\n"
+puts Upgrade.all_upgrades
 puts "\n"
