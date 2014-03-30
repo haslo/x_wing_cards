@@ -14,8 +14,8 @@ end
   slave_pack
 end
 4.times do
-	y_wing_pack
-	b_wing_pack
+  y_wing_pack
+  b_wing_pack
   tie_pack
   advanced_pack
   lambda_pack
@@ -23,13 +23,13 @@ end
   hwk_pack
 end
 5.times do
-	a_wing_pack
-	bomber_pack
+  a_wing_pack
+  bomber_pack
 end
 6.times do
 end
 7.times do
-	interceptor_pack
+  interceptor_pack
 end
 
 puts "\nPilots:\n========\n\n"
