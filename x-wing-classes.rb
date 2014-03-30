@@ -34,6 +34,7 @@ class Craft < XWingSingleton
   def self.get(name, craft, color = :default)
     super([name, craft, color])
   end
+  attr_reader :faction, :color
   def to_s
     "#{@faction} - #{translate("de.crafts.#{@name}")}: #{@count}"
   end
@@ -47,14 +48,12 @@ class Pilot < XWingSingleton
   def self.get(name, craft)
     super([name, craft])
   end
-  def craft
-    @craft
-  end
+  attr_reader :craft
   def to_s
-    "#{translate("de.crafts.#{@craft.name}")} - #{translate("de.pilots.#{@name}")}: #{@count}"
+    "#{translate("de.crafts.#{@craft.name}")} - #{translate("de.pilots.#{@craft.name}.#{@name}")}: #{@count}"
   end
   def self.all_pilots
-    @@singletons[self.name].map{|_,v|v}.sort{|a,b|[a.craft.name,b.count]<=>[b.craft.name,a.count]}.map{|pilot|
+    @@singletons[self.name].map{|_,v|v}.sort{|a,b|[a.craft.faction.name,a.craft.name,b.count]<=>[b.craft.faction.name,b.craft.name,a.count]}.map{|pilot|
       pilot.to_s
     }.join("\n")
   end
